@@ -18,5 +18,7 @@ public class Main {
         list.deleteFromBack();
         list.deleteAtIndex(5);
         System.out.println(list.findNode(100).getNumber().getVal());
+        list.display();
+        System.out.println(list.getNode(4).getNumber().getVal());
     }
 }
